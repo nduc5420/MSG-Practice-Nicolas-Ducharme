@@ -68,8 +68,3 @@ def add_all_ints(n):
             
     return summation
 
-def Hello_World():
-    
-    "Just for fun..."
-    
-    return "Hello World!"
