@@ -36,10 +36,6 @@ def test_add_all_ints():
     with pytest.raises(ValueError):
         add_all_ints(3.2)
         add_all_ints(-1)
-    
-def test_Hello_World():
-    "Tests the Hello_World function"
-    
-    assert "Hello World!" == Hello_World()
+  
     
     
