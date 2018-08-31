@@ -31,10 +31,15 @@ def test_add_all_ints():
     assert 55 == add_all_ints(10)
     assert 0 == add_all_ints(0)
     assert 1 == add_all_ints(1)
+    assert 3 == add_all_ints(2.0)
 
     with pytest.raises(ValueError):
         add_all_ints(3.2)
         add_all_ints(-1)
     
-
+def test_Hello_World():
+    "Tests the Hello_World function"
+    
+    assert "Hello World!" == Hello_World()
+    
     
